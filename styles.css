@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2px;
+}
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    background-color:#1AC073;
+}
+ul {
+    list-style-type: none;
+    
+  }
+  li{
+    display: inline;
+    padding-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+  }
+
+  
+.hero-header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 146px;
+    padding-right: 136px;
+    padding-top: 28px;
+}
+.hero-heading{
+    font-family: 'Squada One' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    padding-right: 338.5px;
+}
+
+.header-link{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;  
+    color: #FFFFFF;
+}
+.header-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-icons{
+   
+}
+.hero-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    padding-top: 170px;
+    padding-left: 132px;
+    padding-right: 185px;
+}
+.hero-text{
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 82px;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+}
+.hero-subtext{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+.buttons{
+
+}
+
+.hero-display{
+    
+}
+.hero-svg{
+    width: 521.63px;
+    height: 525px;
+    left: 774px;
+    top: 239.9px;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+}
+.search-text{
+    align-self: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #929292;
+}
+.input-field{
+    width: 286px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+}
+.button-text{
+    width: 112px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    background-color: #F3BA00;
+    border-radius: 0px 10px 10px 0px;
+}
+.search-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #929292;
+    padding: 19px 128px 19px 22px;
+}
+.search-button{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    padding: 19px 31.5px 19px 31.5px;
+    cursor:pointer
+}
+.section-2{
+    background: #F7F8FA;
+}
+.section-2-heading{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 24px;
+        letter-spacing: -0.012em;
+        color: #000000;
+}
+.cards-home{
+    display: flex;
+    flex-direction: column;
+}
